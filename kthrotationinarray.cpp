@@ -19,13 +19,13 @@ using namespace std;
         itr++;
         arr[0]=str;
         if(k==itr){
-            cout<<"After kth rotation array is:-";
+            cout<<"After "<<k<<"th rotation array is:";
 
-        for(int i=0; i<5; ++i){
+        for(int i=0; i<arr.size(); ++i){
         cout<<arr[i];
-     }break;
+         }break;
         }
-     cout<<endl;
+    //  cout<<endl;
         
     }return arr;
     }
@@ -35,11 +35,13 @@ using namespace std;
     cin>>k;
 
 
-        vector<int> a = {1,2,3,4,5};
-        // for(int val: a){
-        //     cin>>val;
+        vector<int> a = {1,2,3,4,5,6,7};
+        cout<<"Before rotation array is:";
+        for(int val: a){
+            cout<<val;
 
-        // }
+        }
+        cout<<endl;
         k=k%(a.size());
         rotating_array(a, k);
    
