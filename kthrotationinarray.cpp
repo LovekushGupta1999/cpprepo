@@ -43,6 +43,7 @@ using namespace std;
         }
         cout<<endl;
         k=k%(a.size());
+
         rotating_array(a, k);
    
 }
