@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-vector<int> majority_ele(vector<int> arr){
+int majority_ele(vector<int> arr){
 
 int ans, frq=0;
  for(int i=0; i<arr.size(); ++i){
@@ -23,16 +23,16 @@ int ans, frq=0;
      }
      if(count>(arr.size()/2))
        {
-        return arr;
+        return ans;
        }
        else{
-        // return -1;
+        cout<<"No majority element present in array";
        }
 }
 int main(){
     vector<int> arr={1,2,1,4,1,1};
 
-     cout<<"majority element is:"; majority_ele(arr);
+     cout<<"majority element is:"<<majority_ele(arr);
 
 
 }
