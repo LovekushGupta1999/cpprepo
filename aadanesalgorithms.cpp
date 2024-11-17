@@ -30,4 +30,3 @@ cout<<temp;
 return 0;
 }
 
-gi
