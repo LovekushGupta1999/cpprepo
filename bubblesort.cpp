@@ -22,4 +22,4 @@ int b[]=bubble_sort(a,size);
  }
 
     return 0;
-}
+}l
