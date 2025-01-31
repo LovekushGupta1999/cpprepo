@@ -8,7 +8,7 @@ int main(){
     int sum=0,temp=0;
     int num=4;
 
- int a[num]={1,-2,3,4};
+ int a[]={1,-2,3,4};
 
  for(int i=0; i<num; ++i)
  {
